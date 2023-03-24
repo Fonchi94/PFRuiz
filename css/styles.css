@@ -1,34 +1,65 @@
-h1{
-    color: rgb(22, 189, 53);
-}
-header{
-    color:rgb(123, 207, 20);
-}
 body {
-    background-image: url(../img/mariahfondos.jpg);
-    padding: 150px;
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-}
-#menu li a {
-color: whitesmoke;
-}
-@media only screen and (max-width:768px) {
-.billboard2 img {
- height: 200px;
-}
-}
+  background-image: url(../img/mariahfondos.jpg);
+  padding: 150px;
+  font-family: 'Times New Roman', Times, serif; }
+
+@media only screen and (max-width: 768px) {
+  .billboard2 img {
+    height: 200px; } }
+
 .iframe {
-    background-image: url(../img/logominiweb.jfif);
-    height: 50%;
-    transition-property: opacity 0;
-    transition-duration: 2s;
-}
+  background-image: url(../img/logominiweb.jfif);
+  height: 50%;
+  transition-property: opacity 0;
+  transition-duration: 2s; }
+
 .iframe:hover {
-    background-image: url(../img/992837.jpg);
-    background-size: 40%;
-    height: 300px;
-}
+  background-image: url(../img/992837.jpg);
+  background-size: 40%;
+  height: 300px; }
+
 .billboard2 img:hover {
-    transform: skewX(30deg);
-}
+  transform: skewX(30deg); }
+
+nav {
+  background-image: linear-gradient(to bottom, #000000, #333333);
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1; }
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.nav-list li {
+  margin: 0 15px; }
+
+.nav-list li:first-child {
+  margin-left: 0; }
+
+.nav-list li:last-child {
+  margin-right: 0; }
+
+.nav-list li a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.3s ease-in-out; }
+
+.nav-list li a:hover {
+  color: #ff2d55; }
+
+body {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px; }
