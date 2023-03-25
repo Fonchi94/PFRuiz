@@ -63,3 +63,66 @@ body {
   color: white;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px; }
+
+footer {
+  background-color: #ffffff; }
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; }
+  .social-icons a {
+    margin-right: 10px; }
+    .social-icons a i {
+      font-size: 24px;
+      color: #333;
+      transition: color 0.3s; }
+      .social-icons a i:hover {
+        color: #666; }
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px; }
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out; }
+
+a:hover {
+  color: #ff0; }
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px; }
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%; }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.fade-in {
+  animation: fadeIn 1s ease-in-out; }
+
+button {
+  background-color: #f00;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease; }
+  button:hover {
+    background-color: #c00; }
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 3px 1px #f00; }

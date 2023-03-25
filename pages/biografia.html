@@ -8,8 +8,23 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css" integrity="sha384-DpXy6nEg63IV+Ys2QnFPgyaKZfyRvH8o+ARb/a/ktBWI3fT3UksdQRVgMkWOepDw" crossorigin="anonymous">
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/js/bootstrap.bundle.min.js" integrity="sha512-kd4fP4oJ6p9XsJ4f08bxvL8j7E+mdxIyfBw1cIdY8MjWZ9/zXopkpQ2OXzLjPGl7H1yhiLwki7VYKv5PyqPFVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <script>
+    function togglePlay() {
+      var audio = document.getElementById("miAudio");
+      if (audio.paused) {
+        audio.play();
+      } else {
+        audio.pause();
+      }
+    }
+</script>
   <!--Link a css-->
-  <link rel="stylesheet" href="../scss/style.scss">
+  <link rel="stylesheet" href="../css/styles.css">
+  <audio id="miAudio" loop>
+    <source src="../audio/y2mate.com - Mariah Carey  Always Be My Baby_320kbps.mp3" type="audio/mpeg"></audio>
+    <button onclick="togglePlay()">Reproducir "ALWAYS BE MY BABY" BY MARIAH CAREY/Pausar CANCION</button>
+  <title>Mariah Carey</title>
 </head>
 <body>
     <header>
